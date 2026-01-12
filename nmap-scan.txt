@@ -1,0 +1,34 @@
+HTTP and DNS packets
+
+Observation:
+Credentials transmitted in plain text over HTTP.
+
+Risk:
+High
+
+Fix:
+Use HTTPS and encrypt sensitive data.
+[3:52 pm, 12/1/2026] Gaurav CS: wireshark-analysis.txt)
+[3:53 pm, 12/1/2026] Gaurav CS: Pentesting-Lab-Project/
+│
+├── README.md
+│
+├── lab-setup/
+│   ├── tools-installed.txt
+│   └── network-diagram.png
+│
+├── scans/
+│   ├── nmap-scan.txt
+│   └── vulnerability-scan.txt
+│
+├── exploitation/
+│   ├── metasploit-notes.txt
+│
+├── web-testing/
+│   ├── burpsuite-findings.txt
+│
+├── traffic-analysis/
+│   ├── wireshark-analysis.txt
+│
+└── report/
+    └── Final-Pentest-Report.md
