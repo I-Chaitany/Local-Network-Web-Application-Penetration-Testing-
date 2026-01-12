@@ -1,0 +1,14 @@
+Command Used:
+nmap -sV -A 192.168.56.101
+
+Findings:
+- Port 21 (FTP) - Open
+- Port 22 (SSH) - Open
+- Port 80 (HTTP) - Open
+- Apache version outdated
+
+Risk:
+Medium
+
+Recommendation:
+Update Apache to latest version and disable unused services.
