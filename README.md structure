@@ -1,0 +1,36 @@
+# Local Network Web Application Penetration Testing Lab (LN-WAPT Lab)
+
+## Overview
+Hands-on cybersecurity lab simulating real-world internal network web application attacks. 
+Designed for VAPT practice, CEH Practical preparation, and bug bounty workflows in a safe lab environment.
+
+##  Objectives
+- Understand internal web attack surfaces
+- Perform full web application pentesting lifecycle
+- Practice industry-standard tools
+- Prepare for CEH Practical & real pentesting
+
+## Lab Architecture
+### Attacker
+- Kali Linux / Parrot OS
+
+### Targets
+- DVWA
+- OWASP Juice Shop
+- Metasploitable2
+- Custom vulnerable PHP app
+
+### Network
+- VirtualBox / VMware
+- NAT + Host-only
+- Same subnet (192.168.56.0/24)
+
+## Tools Used
+Nmap, Burp Suite, Nikto, SQLmap, Metasploit, Gobuster, Wireshark, Hydra, Netcat
+
+##  Methodology
+### Network Discovery
+```bash
+ip a
+netdiscover -r 192.168.56.0/24
+nmap -sn 192.168.56.0/24
