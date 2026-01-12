@@ -1,0 +1,15 @@
+Target Application:
+DVWA
+
+Vulnerability Found:
+- SQL Injection
+- Reflected XSS
+
+Risk Level:
+High
+
+Example Payload:
+' OR '1'='1
+
+Recommendation:
+Use parameterized queries and input validation.
