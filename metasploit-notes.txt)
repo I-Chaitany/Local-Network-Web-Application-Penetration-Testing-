@@ -1,14 +1,16 @@
-Command Used:
-nmap -sV -A 192.168.56.101
+Framework Used: Metasploit
 
-Findings:
-- Port 21 (FTP) - Open
-- Port 22 (SSH) - Open
-- Port 80 (HTTP) - Open
-- Apache version outdated
+Target:
+Metasploitable VM
 
-Risk:
-Medium
+Exploit:
+vsftpd 2.3.4 backdoor (Lab only)
 
-Recommendation:
-Update Apache to latest version and disable unused services.
+Result:
+Successful shell access achieved.
+
+Impact:
+Attacker can gain unauthorized access.
+
+Fix:
+Disable vulnerable FTP service and apply patches.
